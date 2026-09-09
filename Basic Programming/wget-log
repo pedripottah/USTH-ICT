@@ -1,0 +1,5 @@
+--2026-09-09 15:38:58--  https://update.code.visualstudio.com/commit:88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/server-linux-x64/stable
+Resolving update.code.visualstudio.com (update.code.visualstudio.com)... 150.171.110.102, 2603:1061:14:164::1
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|150.171.110.102|:443... connected.
+GnuTLS: Error in the pull function.
+Unable to establish SSL connection.
