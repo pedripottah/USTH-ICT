@@ -6,7 +6,9 @@ int main() {
     double bignumber = 39.219321312;
     char letter = 'A';
     char name[] = "Nguyen Van A";
+    float numero = 21.234596;
 
+    printf("The number is: %7.2f", numero);
     printf("%d \n", age);
     printf("%.2f \n", price);
     printf("%.3lf \n", bignumber);
