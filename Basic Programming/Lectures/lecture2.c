@@ -41,9 +41,6 @@ int main() {
     printf("Value of a >= b is %d\n", a>=b);    
     printf("Value of a < b is %d\n", a<b);
 
-    return 0;
-    
-
     // AN EXAMPLE OF LOGICAL OPERATORS
     
     int number;
@@ -56,4 +53,5 @@ int main() {
         printf("The number is outside the range!");
     }
 
+    return 0;
 }

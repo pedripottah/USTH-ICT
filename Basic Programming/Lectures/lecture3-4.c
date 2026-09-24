@@ -3,7 +3,7 @@
 int main(void) {
     int sum = 0;
 
-    for (int i = 0; i <=99; i+=2) {
+    for (int i=0; i<=99; i+=2) {
         printf("%d\n", i);
         sum += i;
     }

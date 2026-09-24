@@ -5,7 +5,7 @@ int main(void) {
     enum WD d = 0;
 
     printf("Enter a day in the week (1-7): ");
-    scanf("%d", &d);
+    scanf("%d", (int *)&d);
 
     switch(d) 
     {
@@ -27,7 +27,7 @@ int main(void) {
         break;
     
     default:
-        printf("Today is");
+        printf("Today is (invalid).\n");
     
     }
 }

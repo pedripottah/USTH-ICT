@@ -11,6 +11,16 @@ int main(void) {
     printf("\nEnter second integer, both positive and negative values are accepted: ");
     scanf("%d", &b);
 
+    if (a >= 0 && b >= 0) {
+        printf("The absolute value of %d is: %d\n", a, a);
+        printf("The absolute value of %d is: %d\n", b, b);
+    } else if (a <= 0 && b <= 0) {
+        printf("The absolute value of %d is: %d\n", 0-a, 0-a);
+        printf("The absolute value of %d is: %d\n", 0-b, 0-b); }
+
+
+//------------------------------------------------------------//
+
     if (a < b) {
         printf("\nSorted numbers are: %d %d\n", a, b);
     }
