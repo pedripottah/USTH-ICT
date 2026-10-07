@@ -6,7 +6,7 @@ int main() {
     int age = 12;
     float GPA = 2.34;
     double random = 223.2821;
-    char Grade = 'A';
+    char grade = 'A';
     char name[30] = "";
     
     printf("Enter your name: ");
@@ -15,8 +15,12 @@ int main() {
 
     printf("\nHello USTH World\n");
     printf("Name: %s\n", name);
+    printf("The age is: %d\n", age);
+    printf("The GPA is: %.2f\n", GPA);
+    printf("The random number is: %lf\n", random);
+    printf("The grade  is: %c\n", grade);
 
-    printf("Vertical return\v");
+    printf("\nVertical return\v");
     printf("Horizontal tab\t\n");
     printf("Backspace\b\n");
     printf("Question mark\?\n");
