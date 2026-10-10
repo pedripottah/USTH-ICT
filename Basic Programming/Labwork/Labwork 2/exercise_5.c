@@ -19,13 +19,13 @@ int main() {
     printf("Enter value for f: ");
     scanf("%f", &f);
 
-    if (-1*(a/b) == -1*(d/e) && (c/b) != (d/e)) {
+    if (-1*(a/b) == -1*(d/e) && (c/b) != (f/e)) {
         printf("\nFor %.2fx + %.2fy = %.2f\n", a, b, c);
         printf("For %.2fx + %.2fy = %.2f\n", d, e, f);
         printf("--> No solutions\n");
     }
 
-    else if (-1*(a/b) == -1*(d/e) && (c/b) == (d/e)) {
+    else if (-1*(a/b) == -1*(d/e) && (c/b) == (f/e)) {
         printf("\nFor %.2fx + %.2fy = %.2f\n", a, b, c);
         printf("For %.2fx + %.2fy = %.2f\n", d, e, f);
         printf("--> Infinitely many solutions\n");

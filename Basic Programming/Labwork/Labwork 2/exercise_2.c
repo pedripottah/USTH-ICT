@@ -16,26 +16,16 @@ int main() {
     min = uno;
     max = uno;
 
-    if (min < dos && min < tres) {
-        printf("Minimum is %.2f\n", uno);
-    }
-    else if (min > dos) {
-        printf("Minimum is %.2f\n", dos);
-    }
-    else if (min > tres) {
-        printf("Minimum is %.2f\n", tres);
-    }
+    if (min < dos && min < tres) { min = uno; }
+    if (dos < min) { min = dos; }
+    if (tres < min) { min = tres; }
 
+    if (max > dos && max > tres) { max = uno; }
+    if (dos > max) { max = dos; }
+    if (tres > max) { max = tres; }
 
-    if (max > dos && max > tres) {
-        printf("Maximum is %.2f\n", uno); 
-    }
-    else if (max < dos) {
-        printf("Maximum is %.2f\n", dos);
-    }
-    else if (max < tres) {
-        printf("Maximum is %.2f\n", tres);
-    }
+    printf("Minimum: %.2f\n", min);
+    printf("Maximum: %.2f\n", max);
 
     return 0;
 }

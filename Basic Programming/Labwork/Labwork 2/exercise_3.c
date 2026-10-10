@@ -13,7 +13,7 @@ int main() {
    value1 = value1-value2;
 
    printf("\nThe first value is %.2f\n", value1);
-   printf("The first value is %.2f\n", value2);
+   printf("The second value is %.2f\n", value2);
 
    return 0;
 }
